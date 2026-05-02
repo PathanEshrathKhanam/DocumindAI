@@ -1,0 +1,23 @@
+# Environments
+venv/
+.venv/
+env/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Next.js
+node_modules/
+.next/
+out/
+build/
+
+# App-specific
+backend/uploaded_docs/*
+!backend/uploaded_docs/.gitkeep
+backend/chroma_db/
+backend/test.pdf
+backend/test_embed.py
